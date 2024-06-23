@@ -1,0 +1,110 @@
+
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Timeline container */
+#timeline-embed {
+    border: 1px solid #dacdcd;
+    border-radius: 4px;
+    background-color: #1a037f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Link styling */
+/* a {
+    color: #007bff;
+    text-decoration: none;
+} */
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/*  button  */
+.btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* TimelineJS */
+.tl-slide-content h2 {
+    color: #007bff;
+}
+
+.tl-slide-content h2:hover {
+    color: #0056b3;
+}
+
+.tl-slide-content p {
+    color: #333;
+}
+
+.tl-slide-content a {
+    color: #007bff;
+}
+
+.tl-slide-content a:hover {
+    color: #0056b3;
+}
+
+.tl-timeline-background {
+    background-color: #f4f4f4;
+}
+
+.tl-timeline-event {
+    border-left: 4px solid #007bff;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.tl-timeline-event:hover {
+    background-color: #e9f5ff;
+
+}
+.tl-media img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.tl-knightlab-logo {
+    display: none !important;
+}
+
+.knightlab-logo {
+    display: none !important;
+}
